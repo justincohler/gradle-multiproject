@@ -1,0 +1,7 @@
+ext {
+    junitVersion = '4.11'
+
+    libraries = [
+            junit:  "junit:junit:${junitVersion}"
+    ]
+}

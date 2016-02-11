@@ -1,0 +1,14 @@
+group 'cohler'
+version '1.0-SNAPSHOT'
+
+subprojects {
+    group 'cohler'
+    version '1.0-SNAPSHOT'
+
+    apply plugin: 'java'
+    apply from: "../libraries.gradle"
+
+    repositories {
+        mavenCentral()
+    }
+}
