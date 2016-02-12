@@ -1,6 +1,20 @@
-build/
-.idea/
+# Java class files
+*.class
+
+# generated files
+bin/
+
+# OSX files
+.DS_Store
+
+# IntelliJ files
+*.iml
+.idea
+
+# Gradle files
 .gradle
 gradle
 gradlew
 gradlew.bat
+build/
+
